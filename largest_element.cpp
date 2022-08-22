@@ -7,11 +7,11 @@ int main(){
     cin>>size;
     int number[size];
     int i;
-    cout<<"Enter elements in the array [";
+    cout<<"Enter elements in the array ";
     for(i=0;i<size;i++){
         cin>>number[i];
     }
-    cout<<"]";
+    
     int max = number[0];
     for(i = 0; i<size;i++){
         if(max<number[i]){
